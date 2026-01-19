@@ -12,7 +12,7 @@ configuration/ldap/*
 !configuration/plugins.py
 super-linter.log
 venv/
-pynetbox_demo.py
+test_harness.py
 
 # General
 .DS_Store

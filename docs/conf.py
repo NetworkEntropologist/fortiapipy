@@ -1,5 +1,11 @@
 # Configuration file for the Sphinx documentation builder.
 
+import os
+import sys
+
+# Make sure the package root is on sys.path
+sys.path.insert(0, os.path.abspath(".."))
+
 # -- Project information
 
 project = 'fortiapipy'
