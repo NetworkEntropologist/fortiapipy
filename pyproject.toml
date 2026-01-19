@@ -13,5 +13,14 @@ license = { text = "Apache-2.0" }
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "requests",      # if your external API uses it
+    "requests",
 ]
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+[tool.ruff]
+target-version = "py310"
+line-length = 88
+select = ["E", "F", "I"]
+ignore = []
+fix = true
