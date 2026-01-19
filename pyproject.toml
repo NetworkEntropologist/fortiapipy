@@ -7,7 +7,7 @@ name = "fortiapipy"
 version = "0.1.0"
 description = "A Fortinet API client library for Python."
 authors = [
-    { name = "The Network Entropologist", url = "https://github.com/NetworkEntropologist" }
+    { name = "The Network Entropologist"}
 ]
 license = { text = "Apache-2.0" }
 readme = "README.md"
