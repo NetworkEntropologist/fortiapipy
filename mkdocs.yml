@@ -2,7 +2,7 @@ site_name: fortiapipy
 site_description: Python API client library for Fortinet products
 site_author: The Network Entropologist
 theme:
-  name: material
+  name: readthedocs
   features:
     - navigation.tabs
     - navigation.sections
@@ -18,7 +18,6 @@ plugins:
           options:
             show_source: true
             show_root_heading: true
-            docstring_style: sphinx
 
 nav:
   - Home: index.md
@@ -28,9 +27,9 @@ extra_css:
 
 markdown_extensions:
   - pymdownx.highlight:
-      # anchor_linenums: true
-      # line_spans: __span
-      # pygments_lang_class: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
