@@ -10,5 +10,4 @@ Instantiate the `Api` class. Use the methods available on `Endpoint` to return `
     options:
         members:
             - __init__
-        show_source: false
-        show_root_heading: true
+
