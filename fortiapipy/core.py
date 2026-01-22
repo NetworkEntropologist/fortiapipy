@@ -98,8 +98,8 @@ class APIResource:
         Perform a GET request to the API resource.
 
         Args:
-            *args: Additional path components to append to the URL.
-            **params: Query parameters for the GET request.
+            args: Additional path components to append to the URL.
+            params: Query parameters for the GET request.
 
         Returns:
             Response object from the requests library.
@@ -142,8 +142,8 @@ class APIResource:
         Perform a DELETE request to the API resource.
 
         Args:
-            *args: Additional path components to append to the URL.
-            **params: Query parameters for the DELETE request.
+            args: Additional path components to append to the URL.
+            params: Query parameters for the DELETE request.
 
         Returns:
             Response object from the requests library.
@@ -185,7 +185,11 @@ class APIResource:
     # === End public methods ===
 
 class FortiAPIClient(APIResource):
-    """Client class for Fortinet API interactions."""
+    """This is the core API client class and also the main entry point for fortiapipy.
+
+    After instantiating this class with the appropriate named arguments, you can specify 
+    which endpoint you want to access using the structure from the API documentation.
+    """
 
     # === Start Public Property methods ===
     @property
